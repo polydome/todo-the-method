@@ -1,1 +1,10 @@
+pluginManagement {
+    def quarkusVersion = '2.13.0.Final'
+
+    plugins {
+        id 'io.quarkus' version "${quarkusVersion}"
+    }
+}
+
 rootProject.name = 'todo-the-method'
+include 'list-manager'
